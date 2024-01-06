@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2024-01-06T17:15:02.261Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="4CR_9ez_IPcMpgRRQ7GP" version="22.1.17" type="device">
+  <diagram name="Страница — 1" id="zVI6p89RKCL7Pyk07r3p">
+    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ksx3XaOKXqZHLQUwob6g-3" value="Field&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ksx3XaOKXqZHLQUwob6g-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ksx3XaOKXqZHLQUwob6g-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="140" as="sourcePoint" />
+            <mxPoint x="90" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ksx3XaOKXqZHLQUwob6g-5" value="Phone" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ksx3XaOKXqZHLQUwob6g-6" value="Name&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ksx3XaOKXqZHLQUwob6g-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ksx3XaOKXqZHLQUwob6g-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="140" as="sourcePoint" />
+            <mxPoint x="320" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ksx3XaOKXqZHLQUwob6g-8" value="+validate()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ksx3XaOKXqZHLQUwob6g-9" value="Record&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="50" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ksx3XaOKXqZHLQUwob6g-10" value="+name&lt;br&gt;+birthday&lt;br&gt;+ phone&lt;br&gt;&lt;br&gt;+add_phone()&lt;br&gt;+remove_phone()&lt;br&gt;+edit_phone()&lt;br&gt;+find_phone&lt;br&gt;+ days_to_birthday&lt;br&gt;+ str()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="90" width="135" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Ksx3XaOKXqZHLQUwob6g-11" value="Userdict&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ksx3XaOKXqZHLQUwob6g-13" value="AddressBook&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="440" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Ksx3XaOKXqZHLQUwob6g-15" value="+add_record()&lt;br&gt;+find()&lt;br&gt;+delete()&lt;br&gt;+iterator()&lt;br&gt;+save_from_file()&lt;br&gt;+load_from_file()&lt;br&gt;+ search()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="485" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ksx3XaOKXqZHLQUwob6g-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="370" as="sourcePoint" />
+            <mxPoint x="400" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
