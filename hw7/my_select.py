@@ -39,7 +39,7 @@ from connect_db import session
 # else:
 #     print("No data found for the specified subject ID.")
 
-# def select_3(session, subject_id):
+def select_3(session, subject_id):
 #     avg_grades_by_group = (
 #         session.query(Student.group_id, func.avg(Grade.grade).label('avg_grade'))
 #         .join(Grade, Grade.student_id == Student.id)
@@ -48,16 +48,17 @@ from connect_db import session
 #         .all()
 #     )
 #     return avg_grades_by_group
-#
-#
+# 
+# 
 # result3 = select_3(session, subject_id=3)
+# 
 # if result3:
 #     for group_id, avg_grade in result3:
-#         if group_id is None:
-#             print(f"Group ID: {group_id}, Average Grade: {avg_grade}")
+#         print(f"Group ID: {group_id}, Average Grade: {avg_grade}")
 # else:
 #     print("No data found for the specified subject ID.")
 
+  
 # def select_4(session):
 #     result4 = session.query(func.avg(Grade.grade).label('avg_grade')).scalar()
 #     return result4
